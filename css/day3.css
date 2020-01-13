@@ -1,0 +1,667 @@
+.inner-txt h2{
+   font-family: verdana, sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   color: #343434;
+   text-align: center;
+   font-weight: normal;
+   letter-spacing: 1.2;
+   text-transform: uppercase;
+   box-shadow: 0px 3px 12px -2px rgb(209, 209, 209) ;
+   background-color: white;
+   border-radius: 8px;
+   padding: 35px 25px;
+}
+
+/* .inner-txt{
+    box-shadow: 0px 3px 12px -2px rgb(209, 209, 209);
+    background-color: white;
+    border-radius: 8px;
+    padding: 35px 25px;
+} */
+
+.inner-txt h2:hover {
+    background-color: #148500;
+    color: white;
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+    -o-transition: background 0.5s;
+    -ms-transition: background 0.5s;
+    -o-transition: background 0.5s;
+    transition: background 0.5s;
+    cursor: pointer;
+}
+
+.text-header h2{
+    font-family: verdana, san-serif;
+    font-size: 24px;
+    color: #343434;
+    font-weight: 550;
+    text-transform: capitalize;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.text-header {
+padding-top: 50px;
+}
+
+.bk-lightgreen {
+    background-color: #ebffd7;
+}
+
+/* footer styling starts here */
+.bk-blue {
+    background-color: #383849;
+}
+.ft-row {
+padding-top: 60px;
+}
+
+.ft-row h2 {
+    margin-bottom:  20px;
+    font-family: verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-style: normal;
+    color: #148500;
+    letter-spacing: 1.0;
+    font-weight: normal;
+}
+
+.ul-footer {
+    padding-left: 0px!important;
+    text-align: left;
+}
+
+.ul-footer li {
+    color: white;
+    font-family: verdana, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    padding-bottom: 8px;
+    list-style: none;
+    text-transform: uppercase;
+    letter-spacing: 1.0;
+}
+
+.ul-footer li:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.ul-footer2 {
+    padding-left: 0px!important;
+    text-align: left;
+}
+
+.ul-footer2 li {
+    color: white;
+    font-family: verdana, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    padding-bottom: 8px;
+    list-style: none;
+    text-transform: capitalize;
+    letter-spacing: 1.0;
+}
+
+.ul-footer2 li:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.email p{
+    color: white;
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+}
+
+.email input{
+    border-radius: 8px;
+    width: 100%;
+    height: 40px;
+}
+
+.btn-email-bt  {
+    font-family: verdana, sans-serif;
+    border-radius: 8px;
+    color: white;
+    background-color: green;
+    margin-top: 10px;
+    font-weight: 550;
+
+}
+
+.copy {
+    color: white;
+    font-size: 14px;
+    font-family: verdana, sans-serif;
+    text-align: center;
+    padding-bottom: 40px;
+}
+/* footer styling ends here */
+
+/* core feature styling starts here */
+.main-ft img {
+    max-width: 20%;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.main-ft h2 {
+    font-family: nunito, sans-serif, verdana;
+    font-size: 22px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: inherit;
+    color: rgb(44,39, 56);
+    letter-spacing: normal;
+    margin-bottom: 0px;
+}
+
+.main-ft p {
+    font-family: nunito, verdana, sans-serif;
+    font-size: 12px;
+    color: 7b8088;
+    letter-spacing: 1.2;
+    text-align: center;
+    text-transform: inherit;
+}
+
+.main-ft {
+    text-align: center;
+}
+
+.b1 {
+    border-right: 1px solid #ececec
+}
+
+.core-btn {
+    background-color: #94b71d;
+    color: #fff;
+    font-size: 16px!important;
+    padding: 20px 30px;
+    border-radius: 4px;
+    box-shadow: 0px 3px 12px -2px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: normal;
+    font-style: normal;
+    margin-top: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+/* core feature styling ends here */
+
+/* landing page styling starts here */
+.bk-img {
+    background-image: url('../image/display.jpg');
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.lp-text {
+    padding-top: 120px;
+    padding-bottom: 100px; ;
+}
+
+.lp-text h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 1.2;
+    font-size: 42px;
+    color: #fff;
+    text-align: center;
+}
+
+.lp-text p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    letter-spacing: normal;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+
+.ul-list-x1 li {
+    display: inline;
+    list-style: none;
+    margin-right: 15px;
+}
+
+.ul-list-x1 a {
+    color: #fff;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.ul-list-x1 {
+    text-align: center;
+    padding-left: 0px!important;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.ul-list-x1 .fa {
+    padding-right: 8px;
+    color: #94b71d;
+}
+
+.lp-text h2 {
+    padding-top: 50px;
+}
+
+/* landing page styling ends here */
+
+/* practise CBT page styling starts here */
+.desktop-img img {
+    width: 470px;
+    height: auto;
+    margin: 60px;
+}
+
+.practise-text h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 60px;
+    color: rgb(17, 22, 51);
+    letter-spacing: normal;
+}
+
+.practise-text p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 70px;
+    color: rgb(17, 22, 51);
+    letter-spacing: normal;
+}
+
+.practise-btn {
+    background-color: #94b71d;
+    color: #fff;
+    font-size: 18px!important;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 12px -2px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: normal;
+    font-style: normal;
+    margin-top: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.practise-text h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+/* Practise CBT page styling ends here */
+
+/* navbar styling starts here */
+.page-nav img {
+    max-width: 30%;
+
+}
+
+.page-nav {
+    background-color: #fff;
+}
+
+.navbar-nav li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #343434!important;
+    font-weight: normal;
+}
+
+.navbar-nav li {
+    margin-right: 25px;
+}
+
+.navbar-nav .login a {
+    border: 2px solid #94b71d;
+    border-radius: 4px;
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+}
+
+.navbar-nav .login a:hover {
+    background-color: #94b71d;
+    color: #fff;
+}
+/* navbar styling ends here */
+
+/*social media starts here styling  */
+.ul-soc-md1 li {
+    display: inline;
+    list-style: none;
+    color: #fff;
+}
+
+.ul-soc-md2 li {
+    display: inline;
+    list-style: none;
+    color: #fff;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.ul-soc-md2 a{
+    /* padding: 6px 12px; */
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.ul-soc-md2 li:hover {
+    background-color: #495a12;
+    /* color: #94b71d; */
+    cursor: pointer;
+}
+
+.ul-soc-md2 .fa {
+    padding-top: 15px;
+    margin: 7px;
+}
+
+.bk-green {
+    background-color: #94b71d
+}
+
+.ul-soc-md1 li span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: normal;
+    font-style: normal;
+}
+
+.ul-soc-md1 .fa {
+    padding-right: 4px;
+    font-size: 14px;
+}
+
+.ul-soc-md1 li {
+    margin-right: 25px;
+    border-radius: 4px;
+    padding: 6px 12px;
+}
+.ul-soc-md1 li:hover {
+    background-color: #fff;
+    color: #495a12;
+    cursor: pointer;
+}
+
+.ul-soc-md1 {
+    padding-top: 15px;
+    text-align: left;
+    padding-left: 0px!important;
+}
+
+.ul-soc-md2 {
+    text-align: right;
+}
+/* social media styling ends here */
+
+/* android download styling starts here */
+.android-img img {
+    width: 470px;
+    height: auto;
+    margin: 60px;
+    box-shadow: 0px 3px 12px -2px;
+}
+
+.android h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    color: rgb(17, 22, 51);
+    letter-spacing: normal;
+    text-align: right;
+}
+
+.android p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(17, 22, 51);
+    letter-spacing: normal;
+    text-align: right;
+}
+
+.android-btn {
+    background-color: #94b71d;
+    color: #fff;
+    font-size: 18px!important;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 12px -2px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: normal;
+    font-style: normal;
+    margin-top: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    float: right;
+}
+/* android download styling ends here */
+
+/* ribbon styling starts here */
+.ribbon {
+    background-color: #94b71d;
+}
+
+.ribbon-txt {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2.0px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    /* font-weight: 500; */
+    padding-top: 30px;
+}
+.ribbon-txt span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;    
+}
+
+.ribbon-txt2 {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2.0px;
+    font-size: 14px;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ribbon-txt2 a {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    justify-content: center;
+    color: #fff;
+    font-weight: 550;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 5px 30px;
+    float: right;
+}
+/* ribbon styling ends here */
+
+/* seventh block styling starts here */
+.bk6-x1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bk6-x1 img {
+    max-width: 15%;
+}
+
+.bk6-x1 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(44,39, 56);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.bk6-x1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #7b8088;
+}
+
+.btn-now {
+    background-color: #94b71d;
+    color: #fff!important;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px!important;
+    border-radius: 4px!important;
+    padding: 15px 45px!important;
+}
+/* seventh block styling ends here */
+
+/* testimonials styling starts here */
+.testimony img {
+    border-radius: 100%;
+    width: 100%;
+}
+
+.testimony-2 h2 {
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.8;
+    color: #7b8088;
+    max-width: 70%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.testimony-3 {
+    text-align: center;
+    padding-top: 15px;
+}
+/* testimonials styling ends here */
+
+/* ninth section styling starts here */
+.connect-list li {
+    list-style: none;
+    display: inline-block;
+    color: #fff;
+    margin-right: 25px;
+    position: relative;
+    min-height: 1px;
+
+}
+
+.connect-list .fa {
+    color: #fff;
+    text-align: right;
+    font-size: 3em;
+}
+
+.connect-list .fa:hover {
+    color: #94b71d;
+}
+
+.connect-1 h2 {
+    text-align: right;
+    color: #fff;
+    font-size: 32px;
+    font-weight: normal;
+    margin-top: 15px
+}
+/* ninth section ends here */
+
+/* feature styling starts here */
+.feature-text {
+    text-align: center;
+}
+/* feature styling ends here */
+
+/* media query starts here */
+
+@media (max-width: 768px) {
+    .ul-soc-md2 {
+        display: none;
+    }
+    .navbar-nav {
+        float: right;
+    }
+    .lp-text h2 {
+        font-size: 32px!important;
+    }
+    .lp-text p {
+        font-size: 20px!important;
+    }
+    .ul-list-x1 li a {
+        font-size: 12px!important;
+    }
+    .testimony img {
+        max-width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+    .testimony-2 h2 {
+        font-size: 16px;
+        padding-top: 20px;
+    }
+    .testimony-3 button{
+        margin-top: auto;
+        margin-bottom: 10px;
+    }
+    .connect-1 h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .connect-2 li {
+        text-align: center;
+        display: inline;
+        margin-left: auto;
+        margin-right: auto;
+        white-space: normal;
+    }
+    .desktop-img img {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .android-img img {
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
